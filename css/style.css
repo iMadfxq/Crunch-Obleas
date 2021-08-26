@@ -1,5 +1,6 @@
 :root {
   --principal-color: #53341f;
+  --primary-font: 'Lato', sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -14,7 +15,7 @@ html {
 
 /* HEADER */
 header {
-  height: 70px;
+  height: 80px;
   background-color: black;
   font-size: 1.6rem;
   display: flex;
@@ -22,13 +23,14 @@ header {
   align-items: center;
   border-block-end: 4px solid #8f6040;
   position: sticky;
+  font-family: var(--primary-font);
 }
 header img {
-  width: 60px;
+  width: 68px;
   margin-inline-start: 10px;
 }
 nav {
-  width: 65%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
 }
