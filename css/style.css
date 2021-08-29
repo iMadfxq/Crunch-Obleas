@@ -14,16 +14,18 @@
 html {
   font-size: 62.5%;
   font-family: var(--primary-font);
+  background-color: rgb(245, 245, 245);
 }
 ::-webkit-scrollbar {
-  width: 14px;
+  width: 15px;
+  height: 15px;
 }
 ::-webkit-scrollbar-track {
   background-color: black;
 }
 ::-webkit-scrollbar-thumb {
   background-color: #8f6040;
-  border-radius: 7px;
+  border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--principal-color);
@@ -68,7 +70,7 @@ nav a {
 /* MAIN */
 .main__company--container {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   background-image: url("../resources/local.PNG");
   background-position: center;
   background-repeat: no-repeat;
@@ -79,23 +81,87 @@ nav a {
   align-items: center;
 }
 .main__company--info {
-  width: 300px;
+  width: 290px;
   color: white;
-  padding: 30px;
-  border: 3px solid white;
+  padding: 15px;
+  border: 5px solid white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-block-end: 130px;
+  margin-block-end: 120px;
 }
 .main__company--info h1 {
-  font-size: 4.2rem;
-  margin-block-end: 30px;
+  font-size: 4rem;
+  margin-block-end: 10px;
   font-family: var(--secondary-font);
 }
 .main__company--info p {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   text-align: center;
+  font-weight: 500;
+}
+
+.main__products--title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main__products--title h2 {
+  margin-block-start: 20px;
+  margin-block-end: 10px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px rgb(89 73 30 / 16%);
+}
+
+.main__samples {
+  height: 340px;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  overflow-y: hidden;
+  background-color: rgb(245, 245, 245);
+}
+.main__samples::-webkit-scrollbar {
+  display: none;
+
+  /* HACER CAMBIO PARA CUANDO SEA DESKTOP */
+
+}
+.main__samples--container {
+  scroll-snap-align: center;
+  min-width: 230px;
+  height: 300px;
+  margin: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 6px 6px 6px rgb(89 73 30 / 16%);
+}
+.main__samples--container div {
+  width: 100%;
+  height: 220px;
+  background-image: url("../resources/oblea.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+.main__samples--container h2 {
+  margin-block-start: 10px;
+  font-size: 1.8rem;
+}
+.main__samples--container p {
+  margin-block-start: 5px;
+  font-size: 1.2rem;
 }
