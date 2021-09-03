@@ -1,4 +1,9 @@
 /* UNIVERSAL */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+  40% {transform: translateY(-10px);} 
+  60% {transform: translateY(-10px);} 
+}
 :root {
   --principal-color: #53341f;
   --primary-font: 'Lato', sans-serif;
@@ -121,6 +126,11 @@ nav a {
   margin-block-end: 30px;
   text-align: center;
   text-decoration: underline;
+  animation: bounce 4s;
+  animation-iteration-count: infinite;
+}
+.main__company--button:hover {
+  animation-play-state: paused;
 }
 
 .main__products--title {
