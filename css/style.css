@@ -61,13 +61,12 @@ header img {
   height: 50px;
   border: 3px solid #53341f;
   border-radius: 10px;
-  margin-inline-end: 10px;
   text-decoration: underline;
 }
 nav {
   width: 57%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 nav a {
   color: white;
@@ -75,6 +74,7 @@ nav a {
   align-items: center;
   justify-content: center;
   text-decoration: underline;
+  margin: 0 10px;
 }
 
 /* MAIN */
