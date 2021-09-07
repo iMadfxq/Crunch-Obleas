@@ -1,9 +1,13 @@
 nav div {
-  width: 255px;
-  height: 80px;
+  width: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-inline-end: 10px;
+}
+nav div .header__location {
+  margin: 0;
+  height: 50px;
 }
 .header__location {
   color: rgb(122, 122, 122);
