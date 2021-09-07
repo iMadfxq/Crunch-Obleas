@@ -67,6 +67,10 @@ nav {
   width: 57%;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+}
+nav div {
+  display: none;
 }
 nav a {
   color: white;

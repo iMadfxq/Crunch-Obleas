@@ -1,0 +1,14 @@
+nav div {
+  width: 255px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__location {
+  color: rgb(122, 122, 122);
+  height: 80px;
+}
+nav {
+  width: 70vw;
+}
