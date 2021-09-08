@@ -1,3 +1,4 @@
+/* DESKTOP HEADER */
 nav div {
   width: fit-content;
   display: flex;
@@ -16,3 +17,18 @@ nav div .header__location {
 nav {
   width: 78vw;
 }
+
+/* MAIN CONTACT DESKTOP */
+.main__contact--boxes {
+  flex-direction: row;
+}
+.main__contact--boxes a {
+  margin: 10px;
+}
+.main__samples::-webkit-scrollbar {
+  display: flex;
+}
+.main__samples--container {
+  margin: 10px;
+}
+/* CHANGE THE WAY SAMPLES LOOK ON DESKTOPS, USE GRID */
