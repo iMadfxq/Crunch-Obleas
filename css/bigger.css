@@ -19,11 +19,17 @@ nav {
 }
 
 /* MAIN CONTACT DESKTOP */
+.main__company--info {
+  transform: scale(1.1);
+}
 .main__contact--boxes {
   flex-direction: row;
 }
 .main__contact--boxes a {
   margin: 10px;
+}
+.main__samples {
+  height: 295px;
 }
 .main__samples::-webkit-scrollbar {
   display: flex;
