@@ -18,9 +18,12 @@ nav {
   width: 78vw;
 }
 
-/* MAIN CONTACT DESKTOP */
+/* MAIN DESKTOP */
 .main__company--info {
   transform: scale(1.1);
+}
+.main__about::-webkit-scrollbar {
+  display: flex;
 }
 .main__contact--boxes {
   flex-direction: row;
