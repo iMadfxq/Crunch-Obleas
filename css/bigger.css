@@ -22,8 +22,8 @@ nav {
 .main__company--info {
   transform: scale(1.1);
 }
-.main__about::-webkit-scrollbar {
-  display: flex;
+.main__about {
+  justify-content: center;
 }
 .main__contact--boxes {
   flex-direction: row;
