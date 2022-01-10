@@ -188,6 +188,7 @@ nav a {
   box-shadow: 6px 6px 6px rgb(89 73 30 / 16%);
   margin-block-end: 20px;
   margin-inline: 8px;
+  margin: 0px 8px 20px 8px;
   border-radius: 20px;
 }
 .main__about--description {
